@@ -1,0 +1,485 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Lato', sans-serif;
+}
+
+/* Header Part Starts Here */
+header .container {
+  background-image: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url(../images/restaurant-01.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  height: 600px;
+}
+
+.logo {
+  display: inline;
+  padding-top: 15px;
+  margin-left: 60px;
+}
+
+.logo a {
+  font-family: 'Shrikhand', cursive;
+  text-decoration: none;
+  font-size: 35px;
+  font-weight: 500;
+  color: white;
+}
+
+.nav {
+  position: relative;
+  margin-right: 35px;
+  float: right;
+}
+
+.nav ul {
+  margin: 0;
+  padding: 25px 0;
+}
+
+.nav ul li {
+  text-decoration: none;
+  display: inline-block;
+}
+
+.nav ul li a {
+  font-family: 'Montserrat', sans-serif;
+  text-decoration: none;
+  color: #f9f9f9;
+  margin: 0 20px;
+  transition: 0.5s;
+}
+
+.nav ul li a:hover {
+  color: #fff3cd;
+  transition: 0.5s;
+}
+
+.welcome-message {
+  color: #ffc60b;
+  font-family: 'Oleo Script', cursive;
+  font-size: 45px;
+  font-weight: 400;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.welcome-message .main-word {
+  margin: 0 auto;
+  color: white;
+  font-weight: 700;
+}
+
+.welcome-paragraph {
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.welcome-paragraph p {
+  font-family: 'Oleo Script', cursive;
+  color: white;
+  font-weight: 400;
+  font-size: 22px;
+  text-align: center;
+  margin: 0 auto;
+}
+
+/* Header Part Ends Here */
+/* Body Part Starts Here */
+h1,
+h2 {
+  margin: 0;
+}
+
+.hero {
+  display: flex;
+  width: 90%;
+  margin: 0 auto;
+  padding: 100px 0;
+}
+
+.hero .container {
+  flex: 2;
+  text-align: center;
+}
+
+.sub-headline {
+  font-family: 'Leckerli One', cursive;
+  color: #ffc60b;
+  font-size: 300%;
+  line-height: .011;
+}
+
+.headline {
+  font-family: 'Oleo Script', cursive;
+  color: #696969;
+  font-size: 300%;
+}
+
+.story-box {
+  margin-top: 15px;
+  padding: 10px 75px;
+  text-align: justify;
+}
+
+/* .container h1::after{
+  content: '';
+  display: block;
+  position: absolute;
+  bottom: 0;
+  width: 65px;
+  height: 2px;
+  background: #696969;
+} */
+.image-box-one {
+  flex: 1;
+  background-image: url(../images/meal-01.jpg);
+  background-size: cover;
+  width: 100%;
+  margin: 5px;
+}
+
+.image-box-two {
+  flex: 1;
+  background-image: url(../images/meal-02.jpg);
+  background-size: cover;
+  width: 100%;
+  margin: 5px;
+}
+
+.hero-btn {
+  margin-top: 25px;
+}
+
+.hero-btn a {
+  text-decoration: none;
+  padding: 10px 15px;
+  color: white;
+  background-color: #ffc60b;
+  font-family: 'Leckerli One', cursive;
+  font-weight: bold;
+  border: 1px solid #ffc60b;
+  transition: all ease-in-out 500ms;
+}
+
+.hero-btn a:hover {
+  color: #ffc60b;
+  background-color: inherit;
+  transition: all ease-in-out 500ms;
+}
+
+/* Body Part Ends Here */
+/* Recipe Parts Starts Here */
+.recipe-part {
+  background-image: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url(../images/meal-03.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  height: 450px;
+  position: relative;
+  }
+
+.container-two{
+    width: 90%;
+  }
+
+  .our-recipe-headline {
+    position: absolute;
+    text-align: center;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  .our-recipe-headline h2{
+    font-family: 'Leckerli One', cursive;
+    color: #ffc60b;
+    font-size: 300%;
+    line-height: .011;
+  }
+
+.our-recipe-headline h1{
+  font-family: 'Oleo Script', cursive;
+  color: white;
+  font-size: 300%;
+}
+  /* Recipe Parts Ends Here */
+
+  /* Menu Part Starts Here */
+.meal-part{
+  margin: 75px auto;
+  padding: 10px 0;
+}
+
+.container-three{
+  margin: 0 auto;
+  width: 90%;
+  display: flex;
+}
+
+.menu-check{
+  flex:1;
+  text-align: center;
+}
+
+.menu-check h2{
+  font-family: 'Leckerli One', cursive;
+  color: #ffc60b;
+  font-size: 300%;
+  line-height: .011;
+}
+
+.menu-check h1{
+  font-family: 'Oleo Script', cursive;
+  color: #696969;
+  font-size: 300%;
+}
+.meal-pics{
+  flex: 1;
+}
+
+.meal-pics-one{
+  display: flex;
+}
+
+.meal-pics-one-one{
+  flex: 1;
+  margin: 1px;
+  background-image: url(../images/meal-04.jpg);
+  background-size: cover;
+    height: 200px;
+    width: 200px;
+}
+
+.meal-pics-one-two{
+  flex:1;
+  margin: 1px;
+  background-image: url(../images/meal-05.jpg);
+  background-size: cover;
+  height: 200px;
+  width: 200px;
+}
+
+.meal-pics-two{
+display: flex;
+}
+
+.meal-pics-two-one{
+  flex:1;
+  margin: 1px;
+  background-image: url(../images/meal-06.jpg);
+  background-size: cover;
+  height: 200px;
+  width: 200px;
+}
+
+.meal-pics-two-two{
+  flex: 1;
+  margin: 1px;
+  background-image: url(../images/meal-07.jpg);
+  background-size: cover;
+  height: 200px;
+  width: 200px;
+}
+
+.menu-description-p{
+  padding: 15px 60px 10px;
+}
+
+.menu-check-btn{
+  text-align: left;
+  padding-left: 75px;
+  margin-top: 15px;
+}
+
+.menu-check-btn{
+  text-decoration: none;
+  padding: 10px 15px;
+  color: white;
+  background-color: #ffc60b;
+  font-family: 'Leckerli One', cursive;
+  font-weight: bold;
+  border: 1px solid #ffc60b;
+  transition: all ease-in-out 500ms;
+}
+
+.menu-check-btn:hover{
+  color: #ffc60b;
+  background-color: inherit;
+  transition: all ease-in-out 500ms;
+}
+  /* Menu Part Ends Here */
+
+  /* Blend Parts Starts Here */
+.blend-container{
+  background-image: linear-gradient(rgba(0,0,0,.5),rgba(0,0,0,.5)),url(../images/meal-08.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  padding: 150px;
+  text-align: center;
+}
+
+.blend-headings{
+  margin: 140px 0;
+}
+.blend-headings h2{
+  font-family: 'Oleo Script', cursive;
+  color: white;
+  font-size: 300%;
+}
+
+.blend-headings h1{
+  font-family: 'Leckerli One', cursive;
+  color: #ffc60b;
+  font-size: 300%;
+  line-height: .011;
+}
+
+
+  /* Blend Parts Ends Here */
+
+  /* Delightful Part Starts Here */
+
+.delightful{
+  width: 100%;
+  height: 400px;
+  margin-bottom: 60px;
+}
+
+.delightful-container{
+  width: 90%;
+  margin: 0 auto;
+  padding: 50px 0;
+}
+
+.delgihtful-container-div{
+  display: flex;
+}
+
+.delightful-box-one{
+  flex: 1;
+  text-align: center;
+}
+
+.delightful-box-one h2{
+  font-family: 'Oleo Script', cursive;
+  color: #696969;
+  font-size: 300%;
+}
+.delightful-box-one h1{
+  font-family: 'Leckerli One', cursive;
+  color: #ffc60b;
+  font-size: 300%;
+  line-height: .011;
+}
+
+.delightful-box-one-description{
+  padding: 15px 70px 10px;
+  margin-top: 35px;
+  margin-bottom: 35px;
+}
+.delightful-box-two{
+ flex: 1;
+}
+
+.delightful-box-two-container{
+  display: flex;
+}
+.delightful-box-two-one{
+  flex: 1;
+  background-image: url(../images/people-01.jpg);
+  background-size: cover;
+  height: 350px;
+  margin: 5px;
+}
+
+.delightful-box-two-two{
+  flex: 1;
+  background-image: url(../images/people-02.jpg);
+  background-size: cover;
+  height: 350px;
+  margin: 5px;
+}
+
+.delightful-btn{
+  margin-top: 20px;
+  text-decoration: none;
+  padding: 10px 15px;
+  color: white;
+  background-color: #ffc60b;
+  font-family: 'Leckerli One', cursive;
+  font-weight: bold;
+  border: 1px solid #ffc60b;
+  transition: all ease-in-out 500ms;
+}
+
+.delightful-btn:hover{
+  color: #ffc60b;
+  background-color: inherit;
+  transition: all ease-in-out 500ms;
+}
+/* Delightful Part Ends Here */
+
+/* Footer Part Starts Here */
+/* Footer-one */
+.footer-part{
+  background-color: #222831;
+}
+
+.footer-one{
+  display: flex;
+  text-align: center;
+}
+
+.footer-one h2{
+  font-family: 'Leckerli One', cursive;
+  color: white;
+  text-decoration: underline;
+}
+
+.footer-one p{
+  color: white;
+  padding: 0 80px;
+  text-align: left;
+}
+
+.footer-container{
+  padding: 80px 0;
+  width: 90%;
+  margin: 0 auto;
+}
+
+.one{
+  flex:1;
+}
+
+.second{
+  flex:1;
+}
+
+.third{
+  flex:1;
+}
+
+.fourth{
+  flex:1;
+}
+
+.footer-two-container{
+  width:100%;
+  background-color: black;
+  text-align: center;
+}
+
+.footer-two-container h4{
+  margin: 0;
+  padding: 35px;
+  color: white;
+  font-family: 'Lato', sans-serif;
+  font-weight: bold;
+}
+/* Footer-one */
+
+/* Footer Part Ends Here */
